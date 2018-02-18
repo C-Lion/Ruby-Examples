@@ -16,7 +16,11 @@ puts "welcome to the Widget Store."
 
 #Ask the user how many widgets they want to order: 
 answer = ask("How many widgets are you ordering today?")
-puts "You entered " + answer + " widgets."
+# String concatenation: 
+#puts "You entered " + answer + " widgets."
+
+#String interpolation: 
+puts "You entered #{answer} widgets."
 
 
 
