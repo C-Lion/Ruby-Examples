@@ -20,7 +20,7 @@ answer = ask("How many widgets are you ordering today?")
 #puts "You entered " + answer + " widgets."
 
 #String interpolation: 
-puts "You entered #{answer} widgets."
+p "You entered #{answer} widgets."
 
 
 
