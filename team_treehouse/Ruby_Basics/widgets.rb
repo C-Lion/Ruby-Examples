@@ -18,6 +18,9 @@ def ask(question)
 end
 
 answer = ask("How many widgets are you ordering today?")
-puts "You entered #{answer} widgets."
-p answer 
+number = answer.to_i
+puts "For #{number} widgets your total is: $#{number * 10}."
+
+#debug code
+#p answer.class
 
